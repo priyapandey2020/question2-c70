@@ -26,13 +26,12 @@ const TabNavigator = createBottomTabNavigator({
       const routeName = navigation.state.routeName;
       if(routeName === "Transaction"){
         return(
-          <Image/>
+          <text>Navigate to Transaction</text>
         )
-        
       }
       else if(routeName === "Search"){
         return(
-            <Image/>
+           <text>Navigate to Search</text>
         )
       }
     }
